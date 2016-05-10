@@ -1,0 +1,182 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Cornelio
+{
+    class ClienteBean
+    {
+        public int id { get; set; }
+
+        public string codiceCliente { get; set; }
+
+        public string intestazione { get; set; }
+
+        public string ragioneSociale { get; set; }
+
+        public string indirizzo { get; set; }
+
+        public string capComune { get; set; }
+
+        public string comune { get; set; }
+
+        public string RSComune { get; set; }
+
+        public string indirizzoFat { get; set; }
+
+        public string CAPFat { get; set; }
+
+        public string comuneFat { get; set; }
+
+        public string PartitaIva { get; set; }
+
+        public string codiceFiscale { get; set; }
+
+        public string condizioniPagamento { get; set; }
+
+        public string Telefono { get; set; }
+
+        public string Fax { get; set; }
+
+        public string Email { get; set; }
+
+        public string note { get; set; }
+
+        public string titolo1 { get; set; }
+
+        public string Referente1 { get; set; }
+
+        public string cognome1 { get; set; }
+
+        public string telefono1 { get; set; }
+
+        public string Fax1 { get; set; }
+
+        public string Email1 { get; set; }
+
+        public string titolo2 { get; set; }
+
+        public string Referente2 { get; set; }
+
+        public string cognome2{ get; set; }
+
+        public string telefono2 { get; set; }
+
+        public string Fax2 { get; set; }
+
+        public string Email2 { get; set; }
+
+        public string titolo3 { get; set; }
+
+        public string Referente3 { get; set; }
+
+        public string cognome3 { get; set; }
+
+        public string telefono3 { get; set; }
+
+        public string Fax3 { get; set; }
+
+        public string Email3 { get; set; }
+
+
+        // Costruttori
+
+        public ClienteBean (int id, string intestazione, string ragioneSociale, string indirizzo, string capComune, string comune)
+        {
+            this.id = id;
+
+            this.intestazione = intestazione;
+
+            this.ragioneSociale = ragioneSociale;
+
+            this.indirizzo = indirizzo;
+
+            this.capComune = capComune;
+
+            this.comune = comune;
+        }
+
+        public ClienteBean(int id, string codiceCliente, string intestazione, string ragioneSociale, string indirizzo, string capComune, string comune,
+            string RSComune, string indirizzoFat, string CAPFat, string comuneFat, string PartitaIva, string codiceFiscale, string condizioniPagamento, 
+            string Telefono, string Fax, string Email, string note, string titolo1, string Referente1, string cognome1, string Telefono1, string Fax1, string Email1,
+            string titolo2, string Referente2, string cognome2, string Telefono2, string Fax2, string Email2,
+            string titolo3, string Referente3, string cognome3, string Telefono3, string Fax3, string Email3)
+        {
+            this.id = id;
+
+            this.codiceCliente = codiceCliente;
+
+            this.intestazione = intestazione;
+
+            this.ragioneSociale = ragioneSociale;
+
+            this.indirizzo = indirizzo;
+
+            this.capComune = capComune;
+
+            this.comune = comune;
+
+            this.RSComune = RSComune;
+
+            this.indirizzoFat = indirizzoFat;
+
+            this.CAPFat = CAPFat;
+
+            this.comuneFat = comuneFat;
+
+            this.PartitaIva = PartitaIva;
+
+            this.codiceFiscale = codiceFiscale;
+
+            this.condizioniPagamento = condizioniPagamento;
+
+            this.Telefono = Telefono;
+
+            this.Fax = Fax;
+
+            this.Email = Email;
+
+            this.note = note;
+
+
+            this.titolo1 = titolo1;
+
+            this.Referente1 = Referente1;
+
+            this.cognome1 = cognome1;
+
+            this.telefono1 = telefono1;
+
+            this.Fax1 = Fax1;
+
+            this.Email1 = Email1;
+
+
+            this.titolo2 = titolo2;
+
+            this.Referente2 = Referente2;
+
+            this.cognome2 = cognome2;
+
+            this.telefono2 = telefono2;
+
+            this.Fax2 = Fax2;
+
+            this.Email2 = Email2;
+
+
+            this.titolo3 = titolo3;
+
+            this.Referente3 = Referente3;
+
+            this.cognome3 = cognome3;
+
+            this.telefono3 = telefono3;
+
+            this.Fax3 = Fax3;
+
+            this.Email3 = Email3;
+        }
+    }
+}
